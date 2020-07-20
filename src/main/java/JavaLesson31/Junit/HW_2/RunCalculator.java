@@ -1,4 +1,4 @@
-package HW_2;
+package JavaLesson31.Junit.HW_2;
 
 public class RunCalculator {
     //Создайте класс Калькулятор. В классе должна быть

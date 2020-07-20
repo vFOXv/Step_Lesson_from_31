@@ -1,4 +1,4 @@
-package HW_2;
+package JavaLesson31.Junit.HW_2;
 
 public class Calculator {
     public double sum(double first, double second) {

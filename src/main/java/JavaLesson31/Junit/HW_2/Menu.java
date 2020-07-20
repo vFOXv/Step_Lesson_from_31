@@ -1,4 +1,4 @@
-package HW_2;
+package JavaLesson31.Junit.HW_2;
 
 import java.util.Scanner;
 
