@@ -9,6 +9,7 @@ public class DataBaseProduct {
 
     public DataBaseProduct(){
         product = new Product();
+        createDataBase();
     }
     public void createDataBase() {
         dataBase = new TreeMap<String, Product>();
