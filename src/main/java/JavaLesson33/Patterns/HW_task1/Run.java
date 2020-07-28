@@ -11,5 +11,7 @@ public class Run {
         Singleton singleton1 = Singleton.getInstance();
         singleton1.writeFile();
         singleton1.writeArray();
+        //вызов №1 - singleton
+        //вызов №2 - singleton1
     }
 }
