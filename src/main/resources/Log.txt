@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-04T18:49:30.941572200Z</date>
+  <millis>1596566970941</millis>
+  <nanos>572200</nanos>
+  <sequence>0</sequence>
+  <logger>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</logger>
+  <level>INFO</level>
+  <class>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</class>
+  <method>myLog</method>
+  <thread>14</thread>
+  <message>Start method: newNumberWithFile()</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-04T18:49:57.873528400Z</date>
+  <millis>1596566997873</millis>
+  <nanos>528400</nanos>
+  <sequence>0</sequence>
+  <logger>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</logger>
+  <level>INFO</level>
+  <class>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</class>
+  <method>myLog</method>
+  <thread>14</thread>
+  <message>Start method: newNumberWithFile()</message>
+</record>
+<record>
+  <date>2020-08-04T18:50:07.885578Z</date>
+  <millis>1596567007885</millis>
+  <nanos>578000</nanos>
+  <sequence>1</sequence>
+  <logger>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</logger>
+  <level>INFO</level>
+  <class>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</class>
+  <method>myLog</method>
+  <thread>14</thread>
+  <message>Start method: newNumberWithFile()</message>
+</record>
+<record>
+  <date>2020-08-04T18:50:17.888702800Z</date>
+  <millis>1596567017888</millis>
+  <nanos>702800</nanos>
+  <sequence>2</sequence>
+  <logger>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</logger>
+  <level>INFO</level>
+  <class>JavaLesson34.Patterns.HW.HW_task3.WorkWithFile</class>
+  <method>myLog</method>
+  <thread>14</thread>
+  <message>Start method: newNumberWithFile()</message>
+</record>
