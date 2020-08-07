@@ -45,7 +45,7 @@ public class Singleton {
             String strings [] = new String(bytesCashe).trim().split("\\D+");
             //задание длинны массива byte чисел
             buffer = new byte[strings.length];
-            //запись цифр в int массив
+            //запись цифр в byte массив
             for (int i = 0; i < strings.length; i++) {
                 buffer[i] =  Byte.parseByte(strings[i]);
             }

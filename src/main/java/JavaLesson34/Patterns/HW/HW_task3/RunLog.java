@@ -1,5 +1,8 @@
 package JavaLesson34.Patterns.HW.HW_task3;
 
+import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class RunLog {
     //Есть класс, предоставляющий доступ к набору чисел.
     //Источником этого набора чисел является некоторый файл.
@@ -11,14 +14,13 @@ public class RunLog {
     //набору необходимо вносить запись в лог-файл.
     // При реализации используйте паттерн Proxy (для логгирования)
     //и другие необходимые паттерны.
-    public static void main(String[] args) {
-        WorkWithFile workWithFile = new WorkWithFile();
 
-        Thread threadWorkWithFile = new Thread(() -> {
-            while (true) {
-                workWithFile.newNumberWithFile();
-            }
-        });
-        threadWorkWithFile.start();
+    public static void main(String[] args) {
+
+        //-----!!!!!------   ворпросы в классе Logic!!!!!!!
+
+        LogicProxy logicProxy = new LogicProxy();
+        logicProxy.fullFile();
+        logicProxy.workData();
     }
 }
