@@ -1,6 +1,7 @@
 package JavaLesson34.Patterns.HW.HW_task3;
 
 import java.io.*;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.logging.*;
 
@@ -9,24 +10,24 @@ public class WorkWithFile {
     public static int[] buffer;
 
     //метод который записывает логи в файл:)))
-    public void myLog(String message) {
+//    public void myLog(String message) {
 //        try {
 //            LogManager.getLogManager().readConfiguration(WorkWithFile.class.getResourceAsStream("src\\main\\resources\\logging.properties"));
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
-        try {
-            Handler fileHandler = new FileHandler("src\\main\\resources\\Log.txt", true);
-            log.setUseParentHandlers(false);
-            log.addHandler(fileHandler);
-
-
-        } catch (IOException e) {
-            log.log(Level.SEVERE, "Exception: ", e);
-            e.printStackTrace();
-        }
-        log.info(message);
-    }
+//        try {
+//            Handler fileHandler = new FileHandler("src\\main\\resources\\Log.txt", true);
+//            log.setUseParentHandlers(false);
+//            log.addHandler(fileHandler);
+//
+//
+//        } catch (IOException e) {
+//            log.log(Level.SEVERE, "Exception: ", e);
+//            e.printStackTrace();
+//        }
+//        log.info(message);
+//    }
 
     //считывание данных с файла
     public int[] readFile(int[] buffer) {
@@ -36,7 +37,7 @@ public class WorkWithFile {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            myLog("Start method: readFile()");
+//            myLog("Start method: readFile()");
 
 //            try {
 //                wait();
@@ -84,7 +85,7 @@ public class WorkWithFile {
     //Пять цифр от -100 до +100.
     public void newNumberWithFile() {
         while (true) {
-            myLog("Start method: newNumberWithFile()");
+//            myLog("Start method: newNumberWithFile()");
             try (FileWriter fileWriter = new FileWriter("src\\main\\resources\\HW34_task3_Source.txt")) {
                 for (int i = 0; i < 5; i++) {
                     int random = (int) (-100 + Math.random() * 201);
@@ -100,6 +101,14 @@ public class WorkWithFile {
                 e.printStackTrace();
             }
 //            notifyAll();
+        }
+    }
+
+    public void myLog(String message){
+        try(FileWriter writerLog = new FileWriter("src\\main\\resources\\Log.txt",true)){
+            writerLog.write(message +" "+ LocalDateTime.now().toString() + "\n");
+        }catch(IOException e){
+            e.printStackTrace();
         }
     }
 }
