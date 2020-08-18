@@ -1,4 +1,4 @@
-package JavaLesson35_MVC.JavaLesson35_MVC_task1.model;
+package JavaLesson35_MVC.Task1.model;
 
 public class Article {
     Integer id;

@@ -1,8 +1,8 @@
-package JavaLesson35_MVC.JavaLesson35_MVC_task1.controller;
+package JavaLesson35_MVC.Task1.controller;
 
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.dao.ArticleDaoIml;
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.model.Article;
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.model.factory.ArticleFactory;
+import JavaLesson35_MVC.Task1.dao.ArticleDaoIml;
+import JavaLesson35_MVC.Task1.model.Article;
+import JavaLesson35_MVC.Task1.model.factory.ArticleFactory;
 
 import java.util.ArrayList;
 import java.util.Scanner;

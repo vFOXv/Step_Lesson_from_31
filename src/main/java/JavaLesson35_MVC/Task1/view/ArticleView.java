@@ -1,7 +1,7 @@
-package JavaLesson35_MVC.JavaLesson35_MVC_task1.view;
+package JavaLesson35_MVC.Task1.view;
 
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.Menu;
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.controller.ArticleController;
+import JavaLesson35_MVC.Task1.Menu;
+import JavaLesson35_MVC.Task1.controller.ArticleController;
 
 public class ArticleView {
     ArticleController articleController = new ArticleController();

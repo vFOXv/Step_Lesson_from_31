@@ -1,6 +1,6 @@
-package JavaLesson35_MVC.JavaLesson35_MVC_task1.dao;
+package JavaLesson35_MVC.Task1.dao;
 
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.model.Article;
+import JavaLesson35_MVC.Task1.model.Article;
 
 import java.util.ArrayList;
 

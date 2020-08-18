@@ -1,6 +1,6 @@
-package JavaLesson35_MVC.JavaLesson35_MVC_task1;
+package JavaLesson35_MVC.Task1;
 
-import JavaLesson35_MVC.JavaLesson35_MVC_task1.view.ArticleView;
+import JavaLesson35_MVC.Task1.view.ArticleView;
 
 public class RunArticle {
     //Создайте класс Статья. Необходимо хранить следующую информацию:
