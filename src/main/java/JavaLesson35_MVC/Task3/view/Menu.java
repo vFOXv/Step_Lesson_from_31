@@ -1,4 +1,4 @@
-package JavaLesson35_MVC.Task3;
+package JavaLesson35_MVC.Task3.view;
 
 import java.util.Scanner;
 
